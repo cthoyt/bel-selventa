@@ -5,7 +5,6 @@
 import os
 
 from bel_repository import BELMetadata, BELRepository
-from bel_repository.utils import serialize_authors
 
 __all__ = [
     'repository',
@@ -33,6 +32,10 @@ metadata = BELMetadata(
 repository = BELRepository(
     HERE,
     metadata=metadata,
+    from_path_kwargs=dict(
+        allow_nested=True,
+        citation_clearing=False,
+    ),
 )
 
 get_graph = repository.get_graph

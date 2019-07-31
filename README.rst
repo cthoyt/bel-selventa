@@ -33,3 +33,19 @@ values are also BEL graphs with:
 
     >>> import selventa_knowledge
     >>> graphs = selventa_knowledge.get_graphs()
+
+The functions from each of the previous examples are simply
+exposing the bound functions from the BELRepository object,
+which can be accessed with:
+
+.. code-block:: python
+
+    >>> import selventa_knowledge
+    >>> repository = selventa_knowledge.repository
+
+If you want to use this knowledge with INDRA, there's a method:
+
+.. code-block:: python
+
+    >>> import selventa_knowledge
+    >>> statements = selventa_knowledge.repository.get_indra_statements()

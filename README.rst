@@ -11,7 +11,7 @@ License.
 
 Installation
 ------------
-``selventa_knowledge`` can be installed from [GitHub](https://github.com/cthoyt/selventa-knowledge) with:
+``selventa_knowledge`` can be installed from `GitHub <https://github.com/cthoyt/selventa-knowledge>`_ with:
 
 .. code-block:: sh
 

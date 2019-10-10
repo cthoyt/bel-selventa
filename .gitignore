@@ -103,3 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 selventa_knowledge/_cache.*
+.idea
+selventa_knowledge/selventa-small-corpus-20150611.bel.json
+selventa_knowledge/large_corpus-20170611.bel.json

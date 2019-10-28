@@ -1,19 +1,15 @@
 Line Number	Position	Line	Error	Message
 59	53	"bp(GOBP:""response to oxidative stress"") increases bp(GOBP:necrosis)"	MissingNamespaceNameWarning	"""necrosis"" is not in the GOBP namespace"
-296	22	complex(p(HGNC:VHL),p(HGNC:TCEB1),p(HGNC:TCEB2),p(HGNC:CUL2),p(HGNC:RBX1))	MissingNamespaceNameWarning	"""TCEB1"" is not in the HGNC namespace"
-312	69	p(HGNC:HIF1A,pmod(P,H)) directlyIncreases (cat(complex(p(HGNC:VHL),p(HGNC:TCEB1),p(HGNC:TCEB2),p(HGNC:RBX1),p(HGNC:CUL2))) directlyIncreases deg(p(HGNC:HIF1A)))	MissingNamespaceNameWarning	"""TCEB1"" is not in the HGNC namespace"
 339	4	"SET Disease = ""Carcinoma, Renal Cell"""	IllegalAnnotationValueWarning	"""Carcinoma, Renal Cell"" is not defined in the Disease annotation"
 472	4	"SET Disease = ""Carcinoma, Renal Cell"""	IllegalAnnotationValueWarning	"""Carcinoma, Renal Cell"" is not defined in the Disease annotation"
 963	4	"SET CellLine = ""T-47D"""	IllegalAnnotationValueWarning	"""T-47D"" is not defined in the CellLine annotation"
 978	4	"SET Disease = ""Breast Neoplasms"""	IllegalAnnotationValueWarning	"""Breast Neoplasms"" is not defined in the Disease annotation"
 1049	4	"SET CellLine = ""T-47D"""	IllegalAnnotationValueWarning	"""T-47D"" is not defined in the CellLine annotation"
-1118	49	"path(SDIS:""mitochondrial damage"") increases path(MESHD:""Drug-Induced Liver Injury"")"	MissingNamespaceNameWarning	"""Drug-Induced Liver Injury"" is not in the MESHD namespace"
 1141	3	bp(GOBP:necrosis) increases path(MESHD:Hepatitis)	MissingNamespaceNameWarning	"""necrosis"" is not in the GOBP namespace"
 1228	69	tloc(p(HGNC:CYCS),MESHCS:Mitochondria,MESHCS:Cytoplasm) increases bp(GOBP:necrosis)	MissingNamespaceNameWarning	"""necrosis"" is not in the GOBP namespace"
-1245	0	"bp(SDIS:""mitochondrial DNA damage"") decreases bp(GOBP:""mitochondrial respiratory chain complex assembly"")"	InvalidFunctionSemantic	BiologicalProcess SDIS:mitochondrial DNA damage should be encoded as one of: Pathology
 1315	83	"bp(GOBP:""positive regulation of mitochondrial membrane permeability"") increases bp(GOBP:necrosis)"	MissingNamespaceNameWarning	"""necrosis"" is not in the GOBP namespace"
 1341	4	SET Cell = Hepatocytes	IllegalAnnotationValueWarning	"""Hepatocytes"" is not defined in the Cell annotation"
-1359	32	"path(SDIS:Steatosis) association bp(SDIS:""Lipid Droplet"")"	InvalidFunctionSemantic	BiologicalProcess SDIS:Lipid Droplet should be encoded as one of: Abundance, Protein, RNA, miRNA, Complex, Gene
+1359	32	"path(SDIS:Steatosis) association bp(SDIS:""Lipid Droplet"")"	InvalidFunctionSemantic	"BiologicalProcess SDIS:""Lipid Droplet"" should be encoded as one of: Complex, Abundance, Protein, RNA, Gene, miRNA"
 1368	4	"SET Cell = ""Kupffer Cells"""	IllegalAnnotationValueWarning	"""Kupffer Cells"" is not defined in the Cell annotation"
 1373	23	p(HGNC:TGFB1) increases bp(SDIS:fibrosis)	InvalidFunctionSemantic	BiologicalProcess SDIS:fibrosis should be encoded as one of: Pathology
 1472	4	"SET CellLine = ""HT-1080"""	IllegalAnnotationValueWarning	"""HT-1080"" is not defined in the CellLine annotation"
@@ -26,17 +22,13 @@ Line Number	Position	Line	Error	Message
 2286	4	"SET CellLine = ""HUV-EC-C"""	IllegalAnnotationValueWarning	"""HUV-EC-C"" is not defined in the CellLine annotation"
 2438	4	"SET Cell = ""Cells, Cultured"""	IllegalAnnotationValueWarning	"""Cells, Cultured"" is not defined in the Cell annotation"
 2476	4	SET Disease = Fibrosis	IllegalAnnotationValueWarning	"""Fibrosis"" is not defined in the Disease annotation"
-2772	0	"a(SFAM:""HSPA Family"") directlyDecreases tscript(complex(SCOMP:""Nfkb Complex""))"	InvalidFunctionSemantic	Abundance SFAM:HSPA Family should be encoded as one of: Protein
+2772	0	"a(SFAM:""HSPA Family"") directlyDecreases tscript(complex(SCOMP:""Nfkb Complex""))"	InvalidFunctionSemantic	"Abundance SFAM:""HSPA Family"" should be encoded as one of: Protein"
 2801	4	"SET Cell = ""Cells, Cultured"""	IllegalAnnotationValueWarning	"""Cells, Cultured"" is not defined in the Cell annotation"
 2957	4	"SET Cell = ""Erythroid Cells"""	IllegalAnnotationValueWarning	"""Erythroid Cells"" is not defined in the Cell annotation"
 2966	4	"SET Cell = ""Erythroid Cells"""	IllegalAnnotationValueWarning	"""Erythroid Cells"" is not defined in the Cell annotation"
 3056	4	"SET CellLine = ""NIH/3T3"""	IllegalAnnotationValueWarning	"""NIH/3T3"" is not defined in the CellLine annotation"
 3093	4	SET Disease = Neuroblastoma	IllegalAnnotationValueWarning	"""Neuroblastoma"" is not defined in the Disease annotation"
 3113	4	"SET Disease = ""Leukemia, Myeloid"""	IllegalAnnotationValueWarning	"""Leukemia, Myeloid"" is not defined in the Disease annotation"
-3123	45	"p(SFAM:""MAPK p38 Family"") negativeCorrelation bp(SDIS:""tumor growth"")"	InvalidFunctionSemantic	BiologicalProcess SDIS:tumor growth should be encoded as one of: Pathology
-3151	24	"p(HGNC:MAP2K6) decreases bp(SDIS:""tumor growth"")"	InvalidFunctionSemantic	BiologicalProcess SDIS:tumor growth should be encoded as one of: Pathology
-3152	24	"p(HGNC:MAP2K3) decreases bp(SDIS:""tumor growth"")"	InvalidFunctionSemantic	BiologicalProcess SDIS:tumor growth should be encoded as one of: Pathology
-3157	24	"p(HGNC:MAPK14) decreases bp(SDIS:""tumor growth"")"	InvalidFunctionSemantic	BiologicalProcess SDIS:tumor growth should be encoded as one of: Pathology
 3179	4	"SET Cell = ""Adipocytes, Brown"""	IllegalAnnotationValueWarning	"""Adipocytes, Brown"" is not defined in the Cell annotation"
 3439	4	"SET Cell = {""Adipocytes, Brown"",""Adipocytes, Brown""}"	IllegalAnnotationValueWarning	"""Adipocytes, Brown"" is not defined in the Cell annotation"
 3447	4	"SET Cell = ""Adipocytes, Brown"""	IllegalAnnotationValueWarning	"""Adipocytes, Brown"" is not defined in the Cell annotation"
@@ -56,7 +48,6 @@ Line Number	Position	Line	Error	Message
 4568	4	SET CellLine = M1	IllegalAnnotationValueWarning	"""M1"" is not defined in the CellLine annotation"
 4709	4	"SET Cell = ""Dendritic Cells"""	IllegalAnnotationValueWarning	"""Dendritic Cells"" is not defined in the Cell annotation"
 4848	4	"SET Cell = ""Tumor Cells, Cultured"""	IllegalAnnotationValueWarning	"""Tumor Cells, Cultured"" is not defined in the Cell annotation"
-4979	60	"a(SCHEM:""smoke condensate, cigarette (gas phase)"") increases bp(SDIS:""tumor growth"")"	InvalidFunctionSemantic	BiologicalProcess SDIS:tumor growth should be encoded as one of: Pathology
 5080	4	"SET Cell = ""T-Lymphocytes"""	IllegalAnnotationValueWarning	"""T-Lymphocytes"" is not defined in the Cell annotation"
 5091	4	"SET Cell = ""T-Lymphocytes, Cytotoxic"""	IllegalAnnotationValueWarning	"""T-Lymphocytes, Cytotoxic"" is not defined in the Cell annotation"
 5095	4	"SET Cell = ""T-Lymphocytes"""	IllegalAnnotationValueWarning	"""T-Lymphocytes"" is not defined in the Cell annotation"
@@ -79,7 +70,6 @@ Line Number	Position	Line	Error	Message
 6165	4	"SET CellLine = ""NIH/3T3"""	IllegalAnnotationValueWarning	"""NIH/3T3"" is not defined in the CellLine annotation"
 6210	4	"SET Cell = ""COS Cells"""	IllegalAnnotationValueWarning	"""COS Cells"" is not defined in the Cell annotation"
 6604	4	"SET Disease = ""Prostatic Intraepithelial Neoplasia"""	IllegalAnnotationValueWarning	"""Prostatic Intraepithelial Neoplasia"" is not defined in the Disease annotation"
-6621	22	"p(HGNC:PAWR) decreases bp(SDIS:""tumor growth"")"	InvalidFunctionSemantic	BiologicalProcess SDIS:tumor growth should be encoded as one of: Pathology
 6697	4	"SET Anatomy = {""Pulmonary Alveoli"",""Lung""}"	IllegalAnnotationValueWarning	"""Pulmonary Alveoli"" is not defined in the Anatomy annotation"
 6768	4	"SET Anatomy = {""Monocytes"",""Macrophages""}"	IllegalAnnotationValueWarning	"""Monocytes"" is not defined in the Anatomy annotation"
 6906	4	"SET CellLine = ""Rat1-R12"""	IllegalAnnotationValueWarning	"""Rat1-R12"" is not defined in the CellLine annotation"

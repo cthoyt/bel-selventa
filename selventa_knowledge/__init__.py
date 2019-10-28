@@ -33,7 +33,6 @@ repository = BELRepository(
     HERE,
     metadata=metadata,
     from_path_kwargs=dict(
-        allow_nested=True,
         citation_clearing=False,
     ),
 )

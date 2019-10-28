@@ -12,30 +12,30 @@ SET DOCUMENT ContactInfo = "support@belframework.org"
 ##################################################################################
 # Definitions Section
 
-DEFINE NAMESPACE CHEBI AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=chebi.belns"
-DEFINE NAMESPACE CHEBIID AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=chebi-ids.belns"
-DEFINE NAMESPACE EGID AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=entrez-gene-ids.belns"
-DEFINE NAMESPACE GOBP AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=go-biological-process.belns"
-DEFINE NAMESPACE HGNC AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=hgnc-human-genes.belns"
-DEFINE NAMESPACE MESHCS AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=mesh-cellular-structures.belns"
-DEFINE NAMESPACE MESHD AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=mesh-diseases.belns"
-DEFINE NAMESPACE MESHPP AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=mesh-processes.belns"
-DEFINE NAMESPACE MGI AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=mgi-mouse-genes.belns"
-DEFINE NAMESPACE RGD AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=rgd-rat-genes.belns"
-DEFINE NAMESPACE SCHEM AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=selventa-legacy-chemicals.belns"
-DEFINE NAMESPACE SCOMP AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=selventa-named-complexes.belns"
-DEFINE NAMESPACE SDIS AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=selventa-legacy-diseases.belns"
-DEFINE NAMESPACE SFAM AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=selventa-protein-families.belns"
-DEFINE NAMESPACE SPID AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=swissprot-ids.belns"
+DEFINE NAMESPACE CHEBI          AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/chebi.belns"
+DEFINE NAMESPACE CHEBIID        AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/chebi-ids.belns"
+DEFINE NAMESPACE EGID           AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/entrez-gene-ids.belns"
+DEFINE NAMESPACE GOBP           AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/go-biological-process.belns"
+DEFINE NAMESPACE HGNC           AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE MESHCS         AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/mesh-cellular-structures.belns"
+DEFINE NAMESPACE MESHD          AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/mesh-diseases.belns"
+DEFINE NAMESPACE MESHPP         AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/mesh-processes.belns"
+DEFINE NAMESPACE MGI            AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/mgi-mouse-genes.belns"
+DEFINE NAMESPACE RGD            AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/rgd-rat-genes.belns"
+DEFINE NAMESPACE SCHEM          AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/selventa-legacy-chemicals.belns"
+DEFINE NAMESPACE SCOMP          AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/selventa-named-complexes.belns"
+DEFINE NAMESPACE SDIS           AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/selventa-legacy-diseases.belns"
+DEFINE NAMESPACE SFAM           AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/selventa-protein-families.belns"
+DEFINE NAMESPACE SPID           AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/namespace/swissprot-ids.belns"
 
-DEFINE ANNOTATION Anatomy AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=anatomy.belanno"
-DEFINE ANNOTATION Cell AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=cell.belanno"
-DEFINE ANNOTATION CellLine AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=cell-line.belanno"
-DEFINE ANNOTATION CellStructure AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=cell-structure.belanno"
-DEFINE ANNOTATION Disease AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=disease.belanno"
-DEFINE ANNOTATION MeSHAnatomy AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=mesh-anatomy.belanno"
-DEFINE ANNOTATION Species AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=species-taxonomy-id.belanno"
-DEFINE ANNOTATION TextLocation AS LIST {"Abstract", "Results", "Legend", "Review"}
+DEFINE ANNOTATION Anatomy       AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/annotation/anatomy.belanno"
+DEFINE ANNOTATION Cell          AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/annotation/cell.belanno"
+DEFINE ANNOTATION CellLine      AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/annotation/cell-line.belanno"
+DEFINE ANNOTATION CellStructure AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/annotation/cell-structure.belanno"
+DEFINE ANNOTATION Disease       AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/annotation/disease.belanno"
+DEFINE ANNOTATION MeSHAnatomy   AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/annotation/mesh-anatomy.belanno"
+DEFINE ANNOTATION Species       AS URL "https://raw.githubusercontent.com/OpenBEL/openbel-framework-resources/20150611/annotation/species-taxonomy-id.belanno"
+DEFINE ANNOTATION TextLocation  AS LIST {"Abstract", "Results", "Legend", "Review"}
 
 ##################################################################################
 # Statements Section
@@ -1242,7 +1242,7 @@ SET Evidence = "Classically, it is considered that the number of normal mtDNA co
 can hamper the regeneration of NAD+ and FAD, thus leading to a secondary
 inhibition of the oxidation of fatty acids and pyruvate."
 
-bp(SDIS:"mitochondrial DNA damage") decreases bp(GOBP:"mitochondrial respiratory chain complex assembly")
+path(SDIS:"mitochondrial DNA damage") decreases bp(GOBP:"mitochondrial respiratory chain complex assembly")
 bp(GOBP:"mitochondrial respiratory chain complex assembly") increases a(CHEBI:FAD)
 a(CHEBI:NAD) increases bp(GOBP:"fatty acid beta-oxidation")
 a(CHEBI:FAD) increases bp(GOBP:"fatty acid beta-oxidation")
@@ -3120,7 +3120,7 @@ and tumor suppression (reviewed in Kyriakis and Avruch, 2001 and see below)."
 
 p(SFAM:"MAPK p38 Family") positiveCorrelation bp(GOBP:"cell differentiation")
 p(SFAM:"MAPK p38 Family") positiveCorrelation bp(GOBP:"cell aging")
-p(SFAM:"MAPK p38 Family") negativeCorrelation bp(SDIS:"tumor growth")
+p(SFAM:"MAPK p38 Family") negativeCorrelation path(SDIS:"tumor growth")
 
 SET Evidence = "p21 protein levels increased by a post-transcriptional mechanism and concluded that
 the SAPKs p38 MAPK and JNK were involved in stabilizing the p21 protein. A specific
@@ -3148,13 +3148,13 @@ to tumorigenic conversion (Brancho et al., 2003)."
 
 p(HGNC:MAP2K6) decreases bp(GOBP:"cell proliferation")
 p(HGNC:MAP2K3) decreases bp(GOBP:"cell proliferation")
-p(HGNC:MAP2K6) decreases bp(SDIS:"tumor growth")
-p(HGNC:MAP2K3) decreases bp(SDIS:"tumor growth")
+p(HGNC:MAP2K6) decreases path(SDIS:"tumor growth")
+p(HGNC:MAP2K3) decreases path(SDIS:"tumor growth")
 
 SET Evidence = "deletion of the p38a (mapk14) isoform also resulted in cells with increased susceptibility
 to tumorigenic conversion (Bulavin et al., 2002)."
 
-p(HGNC:MAPK14) decreases bp(SDIS:"tumor growth")
+p(HGNC:MAPK14) decreases path(SDIS:"tumor growth")
 
 SET Disease = cancer
 SET Evidence = "In breast cancer, amplification of the human epidermal growth factor receptor- 2 (Her-2)
@@ -4976,7 +4976,7 @@ SET Evidence = "Tumors arising from TSC-treated A549 cells tended to be somewhat
 developing from untreated cells (364 F 333 versus 200 F 329 mg; P = 0.25, two-tailed
 t test; data not shown)."
 
-a(SCHEM:"smoke condensate, cigarette (gas phase)") increases bp(SDIS:"tumor growth")
+a(SCHEM:"smoke condensate, cigarette (gas phase)") increases path(SDIS:"tumor growth")
 
 SET Evidence = "Interestingly, Dkk-1, encoding a Wnt signaling antagonist frequently silenced by DNA
 methylation in cancer cells (20, 26), was down-regulated in a dose-dependent
@@ -6618,7 +6618,7 @@ in the prostatic milieu (6, 19), results in apoptosis and tumor growth inhibitio
 SET Species = 10090
 
 p(HGNC:PAWR) increases bp(GOBP:"apoptotic process")
-p(HGNC:PAWR) decreases bp(SDIS:"tumor growth")
+p(HGNC:PAWR) decreases path(SDIS:"tumor growth")
 
 SET Evidence = "Indeed, our recent studies reveal that binding of Akt1 to Par-4 results in both Par-4
 phosphorylation and inactivation of its proapoptotic potential (7)."

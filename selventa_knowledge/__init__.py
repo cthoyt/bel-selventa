@@ -31,9 +31,9 @@ metadata = BELMetadata(
 
 repository = BELRepository(
     HERE,
+    formats=('nodelink.json.gz', 'summary.json'),
     metadata=metadata,
     from_path_kwargs=dict(
-        allow_nested=True,
         citation_clearing=False,
     ),
 )

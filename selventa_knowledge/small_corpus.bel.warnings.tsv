@@ -9,7 +9,7 @@ Line Number	Position	Line	Error	Message
 1228	69	tloc(p(HGNC:CYCS),MESHCS:Mitochondria,MESHCS:Cytoplasm) increases bp(GOBP:necrosis)	MissingNamespaceNameWarning	"""necrosis"" is not in the GOBP namespace"
 1315	83	"bp(GOBP:""positive regulation of mitochondrial membrane permeability"") increases bp(GOBP:necrosis)"	MissingNamespaceNameWarning	"""necrosis"" is not in the GOBP namespace"
 1341	4	SET Cell = Hepatocytes	IllegalAnnotationValueWarning	"""Hepatocytes"" is not defined in the Cell annotation"
-1359	32	"path(SDIS:Steatosis) association bp(SDIS:""Lipid Droplet"")"	InvalidFunctionSemantic	"BiologicalProcess SDIS:""Lipid Droplet"" should be encoded as one of: Complex, Abundance, Protein, RNA, Gene, miRNA"
+1359	32	"path(SDIS:Steatosis) association bp(SDIS:""Lipid Droplet"")"	InvalidFunctionSemantic	"BiologicalProcess SDIS:""Lipid Droplet"" should be encoded as one of: Complex, Gene, miRNA, Abundance, RNA, Protein"
 1368	4	"SET Cell = ""Kupffer Cells"""	IllegalAnnotationValueWarning	"""Kupffer Cells"" is not defined in the Cell annotation"
 1373	23	p(HGNC:TGFB1) increases bp(SDIS:fibrosis)	InvalidFunctionSemantic	BiologicalProcess SDIS:fibrosis should be encoded as one of: Pathology
 1472	4	"SET CellLine = ""HT-1080"""	IllegalAnnotationValueWarning	"""HT-1080"" is not defined in the CellLine annotation"

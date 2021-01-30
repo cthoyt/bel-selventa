@@ -4,7 +4,7 @@
 
 import os
 
-from bel_repository import BELMetadata, BELRepository
+from pybel.repository import BELMetadata, BELRepository
 
 __all__ = [
     'repository',

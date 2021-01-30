@@ -6,11 +6,17 @@ Licenses
 --------
 - Code in this repository is licensed under the MIT License
 - Both the Selvanta Small Corpus and Selventa Large Corpus are distributed under
-the Creative Commons Attribution-Non-Commercial-ShareAlike 3.0 Unported
-License.
+  the Creative Commons Attribution-Non-Commercial-ShareAlike 3.0 Unported
+  License.
 
 Installation
 ------------
+``selventa_knowledge`` can be installed from `PyPI <https://pypi.org/project/selventa-knowledge>`_ with:
+
+.. code-block:: sh
+
+   $ pip install selventa-knowledge
+
 ``selventa_knowledge`` can be installed from `GitHub <https://github.com/cthoyt/selventa-knowledge>`_ with:
 
 .. code-block:: sh

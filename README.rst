@@ -56,3 +56,9 @@ If you want to use this knowledge with INDRA, there's a method:
 
     >>> import selventa_knowledge
     >>> statements = selventa_knowledge.repository.get_indra_statements()
+
+More BEL Content
+----------------
+See `A Listing of Publicly Available Content in the Biological Expression Language (BEL)
+<https://cthoyt.com/2020/04/30/public-bel-content.html>`_ on Charles Tapley Hoyt's blog
+for more BEL content.

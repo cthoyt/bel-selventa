@@ -57,7 +57,7 @@ Line Number	Position	Line	Error	Message
 23298	4	"SET Anatomy = {""Adipose Tissue"",""white adipose""}"	IllegalAnnotationValueWarning	"""Adipose Tissue"" is not defined in the Anatomy annotation"
 23959	4	"SET MeSHAnatomy = ""bronchoalveolar lavage fluid"""	IllegalAnnotationValueWarning	"""bronchoalveolar lavage fluid"" is not defined in the MeSHAnatomy annotation"
 25345	10	tscript(p(RGD:Tcfap2a)) directlyIncreases r(RGD:Npy)	MissingNamespaceNameWarning	"""Tcfap2a"" is not in the RGD namespace"
-25370	0	p(EGID:60580) increases kin(p(RGD:Map2k1))	InvalidFunctionSemantic	Protein EGID:60580 should be encoded as one of: miRNA, Gene, RNA
+25370	0	p(EGID:60580) increases kin(p(RGD:Map2k1))	InvalidFunctionSemantic	Protein EGID:60580 should be encoded as one of: Gene, RNA, miRNA
 28229	4	SET CellStructure = intracellular	IllegalAnnotationValueWarning	"""intracellular"" is not defined in the CellStructure annotation"
 28315	4	"SET Anatomy = {""Endothelium, Vascular"",""vascular tissue""}"	IllegalAnnotationValueWarning	"""Endothelium, Vascular"" is not defined in the Anatomy annotation"
 28478	52	"phos(complex(SCOMP:""Calcineurin Complex"")) increases p(EGID:111671)"	InvalidFunctionSemantic	Protein EGID:111671 should be encoded as one of: Gene
@@ -83,7 +83,7 @@ Line Number	Position	Line	Error	Message
 40292	4	SET CellStructure = mitochondrion	IllegalAnnotationValueWarning	"""mitochondrion"" is not defined in the CellStructure annotation"
 41067	4	"SET Anatomy = {""Endothelium, Vascular"",""vascular tissue""}"	IllegalAnnotationValueWarning	"""Endothelium, Vascular"" is not defined in the Anatomy annotation"
 42095	41	kin(p(HGNC:SRC)) directlyIncreases cat(p(HGNC:GRLF1))	MissingNamespaceNameWarning	"""GRLF1"" is not in the HGNC namespace"
-42818	27	a(CHEBI:nicotine) decreases p(EGID:503543)	InvalidFunctionSemantic	Protein EGID:503543 should be encoded as one of: miRNA, Gene, RNA
+42818	27	a(CHEBI:nicotine) decreases p(EGID:503543)	InvalidFunctionSemantic	Protein EGID:503543 should be encoded as one of: Gene, RNA, miRNA
 42850	4	"SET Cell = ""epididymal fat cell"""	IllegalAnnotationValueWarning	"""epididymal fat cell"" is not defined in the Cell annotation"
 43295	4	"SET Anatomy = {""Endothelium"",""vascular tissue""}"	IllegalAnnotationValueWarning	"""Endothelium"" is not defined in the Anatomy annotation"
 43459	4	"SET CellStructure = ""focal adhesion"""	IllegalAnnotationValueWarning	"""focal adhesion"" is not defined in the CellStructure annotation"
@@ -95,19 +95,19 @@ Line Number	Position	Line	Error	Message
 44927	8	"complex(SCOMP:""Catalytic Activity of T-cell receptor complex"") increases tscript(p(HGNC:NFATC2))"	MissingNamespaceNameWarning	"""Catalytic Activity of T-cell receptor complex"" is not in the SCOMP namespace"
 44928	32	"p(HGNC:LCP2) increases (complex(SCOMP:""Catalytic Activity of T-cell receptor complex"") increases kin(p(HGNC:MAPK3)))"	MissingNamespaceNameWarning	"""Catalytic Activity of T-cell receptor complex"" is not in the SCOMP namespace"
 44929	32	"p(HGNC:LCP2) increases (complex(SCOMP:""Catalytic Activity of T-cell receptor complex"") increases tscript(p(HGNC:NFATC2)))"	MissingNamespaceNameWarning	"""Catalytic Activity of T-cell receptor complex"" is not in the SCOMP namespace"
-45231	0	p(EGID:432551) increases cat(p(MGI:Myd88))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: miRNA, Gene, RNA
-45235	0	p(EGID:432551) increases cat(p(MGI:Myd88))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: miRNA, Gene, RNA
-45250	0	p(EGID:432551) increases kin(p(MGI:Chuk))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: miRNA, Gene, RNA
-45251	0	p(EGID:432551) increases kin(p(MGI:Mapk1))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: miRNA, Gene, RNA
-45252	0	p(EGID:432551) increases kin(p(MGI:Mapk14))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: miRNA, Gene, RNA
-45253	0	p(EGID:432551) increases kin(p(MGI:Mapk3))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: miRNA, Gene, RNA
-45254	0	p(EGID:432551) increases kin(p(MGI:Mapk8))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: miRNA, Gene, RNA
-45255	0	p(EGID:432551) increases kin(p(MGI:Mapk9))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: miRNA, Gene, RNA
+45231	0	p(EGID:432551) increases cat(p(MGI:Myd88))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: Gene, RNA, miRNA
+45235	0	p(EGID:432551) increases cat(p(MGI:Myd88))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: Gene, RNA, miRNA
+45250	0	p(EGID:432551) increases kin(p(MGI:Chuk))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: Gene, RNA, miRNA
+45251	0	p(EGID:432551) increases kin(p(MGI:Mapk1))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: Gene, RNA, miRNA
+45252	0	p(EGID:432551) increases kin(p(MGI:Mapk14))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: Gene, RNA, miRNA
+45253	0	p(EGID:432551) increases kin(p(MGI:Mapk3))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: Gene, RNA, miRNA
+45254	0	p(EGID:432551) increases kin(p(MGI:Mapk8))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: Gene, RNA, miRNA
+45255	0	p(EGID:432551) increases kin(p(MGI:Mapk9))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: Gene, RNA, miRNA
 45725	25	"p(HGNC:RB1) decreases bp(GOBP:""M/G1 transition of mitotic cell cycle"")"	MissingNamespaceNameWarning	"""M/G1 transition of mitotic cell cycle"" is not in the GOBP namespace"
 45743	4	"SET CellLine = ""Carcinoma of leukemia"""	IllegalAnnotationValueWarning	"""Carcinoma of leukemia"" is not defined in the CellLine annotation"
 45769	31	tscript(p(MGI:Trp53)) increases r(EGID:27282)	InvalidFunctionSemantic	RNA EGID:27282 should be encoded as one of: Gene
-46185	23	p(HGNC:TGFB1) decreases p(EGID:85389)	InvalidFunctionSemantic	Protein EGID:85389 should be encoded as one of: miRNA, Gene, RNA
-46186	23	p(HGNC:TGFB1) decreases p(EGID:85391)	InvalidFunctionSemantic	Protein EGID:85391 should be encoded as one of: miRNA, Gene, RNA
+46185	23	p(HGNC:TGFB1) decreases p(EGID:85389)	InvalidFunctionSemantic	Protein EGID:85389 should be encoded as one of: Gene, RNA, miRNA
+46186	23	p(HGNC:TGFB1) decreases p(EGID:85391)	InvalidFunctionSemantic	Protein EGID:85391 should be encoded as one of: Gene, RNA, miRNA
 46385	4	"SET CellLine = ""MM.1S cell"""	IllegalAnnotationValueWarning	"""MM.1S cell"" is not defined in the CellLine annotation"
 47644	4	"SET Cell = ""T-cell"""	IllegalAnnotationValueWarning	"""T-cell"" is not defined in the Cell annotation"
 47785	4	"SET MeSHAnatomy = ""bronchoalveolar lavage fluid"""	IllegalAnnotationValueWarning	"""bronchoalveolar lavage fluid"" is not defined in the MeSHAnatomy annotation"
@@ -164,7 +164,7 @@ Line Number	Position	Line	Error	Message
 57913	32	p(RGD:Ctgf) increases tscript(p(RGD:Tcfap2a))	MissingNamespaceNameWarning	"""Tcfap2a"" is not in the RGD namespace"
 57957	4	"SET CellLine = ""SK-BR-3"""	IllegalAnnotationValueWarning	"""SK-BR-3"" is not defined in the CellLine annotation"
 57965	4	"SET CellLine = ""SK-BR-3"""	IllegalAnnotationValueWarning	"""SK-BR-3"" is not defined in the CellLine annotation"
-58102	0	p(EGID:432551) increases cat(p(MGI:Tlr4))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: miRNA, Gene, RNA
+58102	0	p(EGID:432551) increases cat(p(MGI:Tlr4))	InvalidFunctionSemantic	Protein EGID:432551 should be encoded as one of: Gene, RNA, miRNA
 58736	4	"SET Cell = ""hepatoblastoma cell"""	IllegalAnnotationValueWarning	"""hepatoblastoma cell"" is not defined in the Cell annotation"
 59417	4	"SET CellLine = ""rat-1 cell"""	IllegalAnnotationValueWarning	"""rat-1 cell"" is not defined in the CellLine annotation"
 59440	4	"SET CellLine = ""rat-1 cell"""	IllegalAnnotationValueWarning	"""rat-1 cell"" is not defined in the CellLine annotation"
@@ -222,7 +222,7 @@ Line Number	Position	Line	Error	Message
 79509	24	"p(MGI:Tff3) association (p(MGI:Il6st) increases path(SDIS:""tissue repair""))"	BELSyntaxError	"General Parser Failure on line 79509 at pos 24: p(MGI:Tff3) association (p(MGI:Il6st) increases path(SDIS:""tissue repair""))"
 79577	4	SET CellStructure = intracellular	IllegalAnnotationValueWarning	"""intracellular"" is not defined in the CellStructure annotation"
 80309	4	"SET CellStructure = ""extracellular space"""	IllegalAnnotationValueWarning	"""extracellular space"" is not defined in the CellStructure annotation"
-80486	21	p(MGI:Mxd1) decreases p(EGID:19897)	InvalidFunctionSemantic	Protein EGID:19897 should be encoded as one of: miRNA, Gene, RNA
+80486	21	p(MGI:Mxd1) decreases p(EGID:19897)	InvalidFunctionSemantic	Protein EGID:19897 should be encoded as one of: Gene, RNA, miRNA
 81869	4	"SET CellLine = ""HBE1 cell"""	IllegalAnnotationValueWarning	"""HBE1 cell"" is not defined in the CellLine annotation"
 82117	4	"SET Cell = ""T-cell"""	IllegalAnnotationValueWarning	"""T-cell"" is not defined in the Cell annotation"
 82901	10	"complex(p(SFAM:""Platelet Derived Growth Factor Complex family""),p(HGNC:PDGFRB)) increases kin(p(HGNC:PDGFRB))"	MissingNamespaceNameWarning	"""Platelet Derived Growth Factor Complex family"" is not in the SFAM namespace"
@@ -243,14 +243,14 @@ Line Number	Position	Line	Error	Message
 92143	4	"SET Cell = ""T-cell"""	IllegalAnnotationValueWarning	"""T-cell"" is not defined in the Cell annotation"
 92614	30	tscript(p(MGI:Fli1)) decreases r(EGID:15127)	InvalidFunctionSemantic	RNA EGID:15127 should be encoded as one of: Gene
 92656	4	SET CellStructure = intracellular	IllegalAnnotationValueWarning	"""intracellular"" is not defined in the CellStructure annotation"
-93515	36	"bp(GOBP:""DNA methylation"") decreases p(EGID:541472)"	InvalidFunctionSemantic	Protein EGID:541472 should be encoded as one of: miRNA, Gene, RNA
+93515	36	"bp(GOBP:""DNA methylation"") decreases p(EGID:541472)"	InvalidFunctionSemantic	Protein EGID:541472 should be encoded as one of: Gene, RNA, miRNA
 93535	4	"SET CellStructure = ""extracellular space"""	IllegalAnnotationValueWarning	"""extracellular space"" is not defined in the CellStructure annotation"
 94086	4	"SET CellStructure = ""Endoplasmic reticulum"""	IllegalAnnotationValueWarning	"""Endoplasmic reticulum"" is not defined in the CellStructure annotation"
 94095	4	"SET CellStructure = ""Endoplasmic reticulum"""	IllegalAnnotationValueWarning	"""Endoplasmic reticulum"" is not defined in the CellStructure annotation"
 94127	4	"SET Cell = ""islet cell"""	IllegalAnnotationValueWarning	"""islet cell"" is not defined in the Cell annotation"
 94255	31	"complex(p(HGNC:NFKBIA),complex(""NFKB complex"")) increases tscript(p(SFAM:""NOTCH Family""))"	NakedNameWarning	"""NFKB complex"" should be qualified with a valid namespace"
 94785	4	SET CellStructure = endosome	IllegalAnnotationValueWarning	"""endosome"" is not defined in the CellStructure annotation"
-95608	0	p(EGID:221017) decreases tscript(p(HGNC:GATA1))	InvalidFunctionSemantic	Protein EGID:221017 should be encoded as one of: miRNA, Gene, RNA
+95608	0	p(EGID:221017) decreases tscript(p(HGNC:GATA1))	InvalidFunctionSemantic	Protein EGID:221017 should be encoded as one of: Gene, RNA, miRNA
 96778	4	"SET CellStructure = ""focal adhesion"""	IllegalAnnotationValueWarning	"""focal adhesion"" is not defined in the CellStructure annotation"
 97244	30	a(CHEBI:androgen) decreases r(EGID:24735)	MissingNamespaceNameWarning	"""24735"" is not in the EGID namespace"
 97330	8	complex(tscript(p(HGNC:TP53)),g(HGNC:SFN))	NakedNameWarning	"""tscript"" should be qualified with a valid namespace"
@@ -260,7 +260,7 @@ Line Number	Position	Line	Error	Message
 100290	4	"SET Disease = ""Atherosclerotic lesion"""	IllegalAnnotationValueWarning	"""Atherosclerotic lesion"" is not defined in the Disease annotation"
 100677	4	"SET CellLine = ""beta TC3 cell"""	IllegalAnnotationValueWarning	"""beta TC3 cell"" is not defined in the CellLine annotation"
 100692	4	"SET CellLine = ""beta TC3 cell"""	IllegalAnnotationValueWarning	"""beta TC3 cell"" is not defined in the CellLine annotation"
-100842	0	p(EGID:10597) directlyDecreases (tscript(p(HGNC:PITX1)) directlyIncreases r(HGNC:LHB))	InvalidFunctionSemantic	Protein EGID:10597 should be encoded as one of: miRNA, Gene, RNA
+100842	0	p(EGID:10597) directlyDecreases (tscript(p(HGNC:PITX1)) directlyIncreases r(HGNC:LHB))	InvalidFunctionSemantic	Protein EGID:10597 should be encoded as one of: Gene, RNA, miRNA
 101299	48	"a(CHEBI:""trichostatin A"") decreases cat(complex(SCOMP:""histone deacetylase complex""))"	MissingNamespaceNameWarning	"""histone deacetylase complex"" is not in the SCOMP namespace"
 102089	39	"kin(p(SFAM:""AKT Family"")) increases bp(GOBP:""invasive growth"")"	MissingNamespaceNameWarning	"""invasive growth"" is not in the GOBP namespace"
 102377	29	gtp(p(MGI:Hras)) decreases p(EGID:636687)	MissingNamespaceNameWarning	"""636687"" is not in the EGID namespace"
@@ -274,22 +274,22 @@ Line Number	Position	Line	Error	Message
 105055	4	SET MeSHAnatomy = tumor	IllegalAnnotationValueWarning	"""tumor"" is not defined in the MeSHAnatomy annotation"
 105109	4	SET MeSHAnatomy = tumor	IllegalAnnotationValueWarning	"""tumor"" is not defined in the MeSHAnatomy annotation"
 105130	4	"SET Anatomy = {""Endothelium, Vascular"",""vascular tissue""}"	IllegalAnnotationValueWarning	"""Endothelium, Vascular"" is not defined in the Anatomy annotation"
-105607	24	bp(GOBP:aging) increases p(EGID:84832)	InvalidFunctionSemantic	Protein EGID:84832 should be encoded as one of: miRNA, Gene, RNA
+105607	24	bp(GOBP:aging) increases p(EGID:84832)	InvalidFunctionSemantic	Protein EGID:84832 should be encoded as one of: Gene, RNA, miRNA
 105767	4	"SET MeSHAnatomy = ""breast stroma"""	IllegalAnnotationValueWarning	"""breast stroma"" is not defined in the MeSHAnatomy annotation"
-106370	48	"tscript(complex(SCOMP:""Nfkb Complex"")) increases p(EGID:11039)"	InvalidFunctionSemantic	Protein EGID:11039 should be encoded as one of: miRNA, Gene, RNA
+106370	48	"tscript(complex(SCOMP:""Nfkb Complex"")) increases p(EGID:11039)"	InvalidFunctionSemantic	Protein EGID:11039 should be encoded as one of: Gene, RNA, miRNA
 108298	34	"tscript(p(MGI:""Nkx2-1"")) decreases r(EGID:21580)"	InvalidFunctionSemantic	RNA EGID:21580 should be encoded as one of: Gene
 108855	4	"SET Cell = ""islet cell"""	IllegalAnnotationValueWarning	"""islet cell"" is not defined in the Cell annotation"
 108893	4	"SET Cell = ""islet cell"""	IllegalAnnotationValueWarning	"""islet cell"" is not defined in the Cell annotation"
 108912	4	"SET Cell = ""islet cell"""	IllegalAnnotationValueWarning	"""islet cell"" is not defined in the Cell annotation"
 109223	4	"SET Cell = ""islet cell"""	IllegalAnnotationValueWarning	"""islet cell"" is not defined in the Cell annotation"
 109338	4	"SET Disease = ""Carcinoma of breast"""	IllegalAnnotationValueWarning	"""Carcinoma of breast"" is not defined in the Disease annotation"
-109421	37	a(CHEBI:lipopolysaccharide) increases p(EGID:85391)	InvalidFunctionSemantic	Protein EGID:85391 should be encoded as one of: miRNA, Gene, RNA
-109425	22	p(HGNC:CSF2) increases p(EGID:85391)	InvalidFunctionSemantic	Protein EGID:85391 should be encoded as one of: miRNA, Gene, RNA
+109421	37	a(CHEBI:lipopolysaccharide) increases p(EGID:85391)	InvalidFunctionSemantic	Protein EGID:85391 should be encoded as one of: Gene, RNA, miRNA
+109425	22	p(HGNC:CSF2) increases p(EGID:85391)	InvalidFunctionSemantic	Protein EGID:85391 should be encoded as one of: Gene, RNA, miRNA
 110792	48	"a(CHEBI:""reactive oxygen species"") increases bp(GOBP:necrosis)"	MissingNamespaceNameWarning	"""necrosis"" is not in the GOBP namespace"
 110794	46	"bp(GOBP:""inflammatory response"") increases bp(GOBP:necrosis)"	MissingNamespaceNameWarning	"""necrosis"" is not in the GOBP namespace"
 111794	71	"path(SDIS:""Chronic Obstructive Pulmonary Disease"") positiveCorrelation (p(HGNC:TNF) increases p(HGNC:IL6))"	BELSyntaxError	"General Parser Failure on line 111794 at pos 71: path(SDIS:""Chronic Obstructive Pulmonary Disease"") positiveCorrelation (p(HGNC:TNF) increases p(HGNC:IL6))"
 112256	41	"bp(MESHPP:""Menstrual Cycle"") decreases r(MGI:Spata26)"	MissingNamespaceNameWarning	"""Spata26"" is not in the MGI namespace"
-112304	38	"bp(MESHPP:""Menstrual Cycle"") decreases p(EGID:100503799)"	InvalidFunctionSemantic	Protein EGID:100503799 should be encoded as one of: miRNA, Gene, RNA
+112304	38	"bp(MESHPP:""Menstrual Cycle"") decreases p(EGID:100503799)"	InvalidFunctionSemantic	Protein EGID:100503799 should be encoded as one of: Gene, RNA, miRNA
 112505	4	"SET CellStructure = ""growth cone"""	IllegalAnnotationValueWarning	"""growth cone"" is not defined in the CellStructure annotation"
 112864	16	complex(complex(a(CHEBI:estradiol),p(HGNC:ESR1)),g(HGNC:MDM2))	NakedNameWarning	"""a"" should be qualified with a valid namespace"
 113466	4	"SET CellLine = ""SH-SY5Y cell line"""	IllegalAnnotationValueWarning	"""SH-SY5Y cell line"" is not defined in the CellLine annotation"
@@ -320,7 +320,7 @@ Line Number	Position	Line	Error	Message
 127489	4	SET MeSHAnatomy = tumor	IllegalAnnotationValueWarning	"""tumor"" is not defined in the MeSHAnatomy annotation"
 127713	39	"path(SDIS:""tissue damage"") increases p(SFAM:""sec(Platelet Derived Growth Factor Complex family)"")"	MissingNamespaceNameWarning	"""sec(Platelet Derived Growth Factor Complex family)"" is not in the SFAM namespace"
 128111	4	"SET CellLine = ""Carcinoma of leukemia"""	IllegalAnnotationValueWarning	"""Carcinoma of leukemia"" is not defined in the CellLine annotation"
-128756	34	"path(SDIS:""food intake"") decreases p(EGID:380687)"	InvalidFunctionSemantic	Protein EGID:380687 should be encoded as one of: miRNA, Gene, RNA
+128756	34	"path(SDIS:""food intake"") decreases p(EGID:380687)"	InvalidFunctionSemantic	Protein EGID:380687 should be encoded as one of: Gene, RNA, miRNA
 129076	4	"SET CellLine = ""HPL1D cell"""	IllegalAnnotationValueWarning	"""HPL1D cell"" is not defined in the CellLine annotation"
 129110	4	SET MeSHAnatomy = tumor	IllegalAnnotationValueWarning	"""tumor"" is not defined in the MeSHAnatomy annotation"
 129438	39	tscript(p(MGI:Satb2)) directlyIncreases r(EGID:16019)	InvalidFunctionSemantic	RNA EGID:16019 should be encoded as one of: Gene
@@ -362,16 +362,16 @@ Line Number	Position	Line	Error	Message
 140920	4	"SET Cell = ""T-cell"""	IllegalAnnotationValueWarning	"""T-cell"" is not defined in the Cell annotation"
 140928	4	"SET Cell = ""T-cell"""	IllegalAnnotationValueWarning	"""T-cell"" is not defined in the Cell annotation"
 143703	4	"SET Cell = ""islet cell"""	IllegalAnnotationValueWarning	"""islet cell"" is not defined in the Cell annotation"
-143938	48	"a(SCHEM:""Adenosine triphosphate"") decreases cat(p(MGI:""Nutf2-ps1""))"	InvalidFunctionSemantic	"Protein MGI:""Nutf2-ps1"" should be encoded as one of: miRNA, Gene, RNA"
+143938	48	"a(SCHEM:""Adenosine triphosphate"") decreases cat(p(MGI:""Nutf2-ps1""))"	InvalidFunctionSemantic	Protein MGI:Nutf2-ps1 should be encoded as one of: Gene, RNA, miRNA
 146612	4	SET CellStructure = axon	IllegalAnnotationValueWarning	"""axon"" is not defined in the CellStructure annotation"
 146692	4	SET MeSHAnatomy = tumor	IllegalAnnotationValueWarning	"""tumor"" is not defined in the MeSHAnatomy annotation"
-147817	44	"kin(p(SFAM:""PRKA Family"")) directlyIncreases p(HGNC:NCF1C,pmod(P,S,359))"	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: miRNA, Gene, RNA
-147818	44	"kin(p(SFAM:""PRKA Family"")) directlyIncreases p(HGNC:NCF1C,pmod(P,S,370))"	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: miRNA, Gene, RNA
-147819	36	kin(p(HGNC:PRKCA)) directlyIncreases p(HGNC:NCF1C,pmod(P,S,359))	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: miRNA, Gene, RNA
-148308	44	"kin(p(SFAM:""PRKA Family"")) directlyIncreases p(HGNC:NCF1C,pmod(P,S,320))"	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: miRNA, Gene, RNA
-148309	36	kin(p(HGNC:PRKCA)) directlyIncreases p(HGNC:NCF1C,pmod(P,S,303))	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: miRNA, Gene, RNA
-148313	37	kin(p(HGNC:MAPK14)) directlyIncreases p(HGNC:NCF1C,pmod(P,S,345))	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: miRNA, Gene, RNA
-148387	36	kin(p(HGNC:PRKCA)) directlyIncreases p(HGNC:NCF1C,pmod(P,S,315))	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: miRNA, Gene, RNA
+147817	44	"kin(p(SFAM:""PRKA Family"")) directlyIncreases p(HGNC:NCF1C,pmod(P,S,359))"	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: Gene, RNA, miRNA
+147818	44	"kin(p(SFAM:""PRKA Family"")) directlyIncreases p(HGNC:NCF1C,pmod(P,S,370))"	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: Gene, RNA, miRNA
+147819	36	kin(p(HGNC:PRKCA)) directlyIncreases p(HGNC:NCF1C,pmod(P,S,359))	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: Gene, RNA, miRNA
+148308	44	"kin(p(SFAM:""PRKA Family"")) directlyIncreases p(HGNC:NCF1C,pmod(P,S,320))"	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: Gene, RNA, miRNA
+148309	36	kin(p(HGNC:PRKCA)) directlyIncreases p(HGNC:NCF1C,pmod(P,S,303))	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: Gene, RNA, miRNA
+148313	37	kin(p(HGNC:MAPK14)) directlyIncreases p(HGNC:NCF1C,pmod(P,S,345))	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: Gene, RNA, miRNA
+148387	36	kin(p(HGNC:PRKCA)) directlyIncreases p(HGNC:NCF1C,pmod(P,S,315))	InvalidFunctionSemantic	Protein HGNC:NCF1C should be encoded as one of: Gene, RNA, miRNA
 148762	4	"SET CellLine = ""SK-BR-3"""	IllegalAnnotationValueWarning	"""SK-BR-3"" is not defined in the CellLine annotation"
 149014	3	"bp(GOBP:""age-dependent telomere shortening"") increases bp(GOBP:""replicative cell aging"")"	MissingNamespaceNameWarning	"""age-dependent telomere shortening"" is not in the GOBP namespace"
 149077	3	"bp(GOBP:""age-dependent telomere shortening"") increases p(MGI:Cdkn1a)"	MissingNamespaceNameWarning	"""age-dependent telomere shortening"" is not in the GOBP namespace"
@@ -402,12 +402,12 @@ Line Number	Position	Line	Error	Message
 158942	21	p(MGI:Cln5) decreases r(EGID:15127)	InvalidFunctionSemantic	RNA EGID:15127 should be encoded as one of: Gene
 159733	4	"SET Anatomy = {""Endothelium"",""vascular tissue""}"	IllegalAnnotationValueWarning	"""Endothelium"" is not defined in the Anatomy annotation"
 159925	10	tscript(p(MGI:Tcfap2a)) increases r(MGI:Pitx2)	MissingNamespaceNameWarning	"""Tcfap2a"" is not in the MGI namespace"
-161781	28	a(SCHEM:Stanolone) decreases p(EGID:629957)	InvalidFunctionSemantic	Protein EGID:629957 should be encoded as one of: miRNA, Gene, RNA
+161781	28	a(SCHEM:Stanolone) decreases p(EGID:629957)	InvalidFunctionSemantic	Protein EGID:629957 should be encoded as one of: Gene, RNA, miRNA
 161838	28	a(SCHEM:Stanolone) increases r(EGID:16114)	InvalidFunctionSemantic	RNA EGID:16114 should be encoded as one of: Gene
 161839	28	a(SCHEM:Stanolone) increases r(EGID:384422)	InvalidFunctionSemantic	RNA EGID:384422 should be encoded as one of: Gene
 161840	28	a(SCHEM:Stanolone) increases r(EGID:384422)	InvalidFunctionSemantic	RNA EGID:384422 should be encoded as one of: Gene
-161891	28	a(SCHEM:Stanolone) increases p(EGID:633082)	InvalidFunctionSemantic	Protein EGID:633082 should be encoded as one of: miRNA, Gene, RNA
-161892	28	a(SCHEM:Stanolone) increases p(EGID:633082)	InvalidFunctionSemantic	Protein EGID:633082 should be encoded as one of: miRNA, Gene, RNA
+161891	28	a(SCHEM:Stanolone) increases p(EGID:633082)	InvalidFunctionSemantic	Protein EGID:633082 should be encoded as one of: Gene, RNA, miRNA
+161892	28	a(SCHEM:Stanolone) increases p(EGID:633082)	InvalidFunctionSemantic	Protein EGID:633082 should be encoded as one of: Gene, RNA, miRNA
 162670	48	"a(CHEBI:""reactive oxygen species"") increases bp(GOBP:necrosis)"	MissingNamespaceNameWarning	"""necrosis"" is not in the GOBP namespace"
 162691	48	"a(CHEBI:""reactive oxygen species"") increases bp(GOBP:necrosis)"	MissingNamespaceNameWarning	"""necrosis"" is not in the GOBP namespace"
 162871	37	"p(EGID:16847) negativeCorrelation bp(GOBP:""electron transport"")"	MissingNamespaceNameWarning	"""electron transport"" is not in the GOBP namespace"
@@ -436,8 +436,8 @@ Line Number	Position	Line	Error	Message
 178363	10	tscript(p(MGI:Tcfap2a)) increases r(MGI:St3gal5)	MissingNamespaceNameWarning	"""Tcfap2a"" is not in the MGI namespace"
 178865	4	"SET Disease = ""Atherosclerotic lesion"""	IllegalAnnotationValueWarning	"""Atherosclerotic lesion"" is not defined in the Disease annotation"
 179196	39	"tscript(p(HGNC:PPARGC1A)) increases bp(GOBP:""electron transport"")"	MissingNamespaceNameWarning	"""electron transport"" is not in the GOBP namespace"
-180439	27	"cat(p(RGD:Adrb3)) decreases path(SDIS:""Lipid droplet"")"	InvalidFunctionSemantic	"Pathology SDIS:""Lipid droplet"" should be encoded as one of: RNA, Abundance, Gene, Complex, miRNA, Protein"
-180440	27	"cat(p(RGD:Adrb3)) decreases path(SDIS:""adipocyte lipid droplet"")"	InvalidFunctionSemantic	"Pathology SDIS:""adipocyte lipid droplet"" should be encoded as one of: RNA, Abundance, Gene, Complex, miRNA, Protein"
+180439	27	"cat(p(RGD:Adrb3)) decreases path(SDIS:""Lipid droplet"")"	InvalidFunctionSemantic	"Pathology SDIS:""Lipid droplet"" should be encoded as one of: Abundance, Gene, Protein, RNA, Complex, miRNA"
+180440	27	"cat(p(RGD:Adrb3)) decreases path(SDIS:""adipocyte lipid droplet"")"	InvalidFunctionSemantic	"Pathology SDIS:""adipocyte lipid droplet"" should be encoded as one of: Abundance, Gene, Protein, RNA, Complex, miRNA"
 180490	12	"cat(complex(SCOMP:""B-cell receptor complex"")) increases cat(p(MGI:Vav1))"	MissingNamespaceNameWarning	"""B-cell receptor complex"" is not in the SCOMP namespace"
 180600	24	g(EGID:111337) decreases p(EGID:192162)	InvalidFunctionSemantic	Protein EGID:192162 should be encoded as one of: Gene
 180732	28	a(CHEBI:estradiol) increases r(EGID:16142)	InvalidFunctionSemantic	RNA EGID:16142 should be encoded as one of: Gene
@@ -465,7 +465,7 @@ Line Number	Position	Line	Error	Message
 186534	4	"SET CellLine = ""SK-N-BE(2)-C cell line"""	IllegalAnnotationValueWarning	"""SK-N-BE(2)-C cell line"" is not defined in the CellLine annotation"
 186719	49	complex(p(HGNC:PDGFB),p(HGNC:PDGFB)) increases p(HGNC:TUBB4,pmod(P,Y))	MissingNamespaceNameWarning	"""TUBB4"" is not in the HGNC namespace"
 186721	37	kin(p(HGNC:SRC)) directlyIncreases p(HGNC:TUBB4,pmod(P,Y))	MissingNamespaceNameWarning	"""TUBB4"" is not in the HGNC namespace"
-187243	28	a(CHEBI:erlotinib) decreases p(EGID:387254)	InvalidFunctionSemantic	Protein EGID:387254 should be encoded as one of: miRNA, Gene, RNA
+187243	28	a(CHEBI:erlotinib) decreases p(EGID:387254)	InvalidFunctionSemantic	Protein EGID:387254 should be encoded as one of: Gene, RNA, miRNA
 187339	4	"SET Anatomy = {""Lung"",""Pulmonary Alveoli""}"	IllegalAnnotationValueWarning	"""Lung"" is not defined in the Anatomy annotation"
 187396	32	a(CHEBI:phenylalanine) increases r(EGID:238447)	InvalidFunctionSemantic	RNA EGID:238447 should be encoded as one of: Gene
 187587	4	"SET Cell = ""T-cell"""	IllegalAnnotationValueWarning	"""T-cell"" is not defined in the Cell annotation"
@@ -493,7 +493,7 @@ Line Number	Position	Line	Error	Message
 192880	25	composite(p(HGNC:IFNG),p(HGNCTNF)) increases p(HGNC:TLR1)	NakedNameWarning	"""HGNCTNF"" should be qualified with a valid namespace"
 192884	25	composite(p(HGNC:IFNG),p(HGNCTNF)) decreases p(HGNC:TLR5)	NakedNameWarning	"""HGNCTNF"" should be qualified with a valid namespace"
 192906	25	composite(p(HGNC:IFNG),p(HGNCTNF)) increases p(HGNC:TLR2)	NakedNameWarning	"""HGNCTNF"" should be qualified with a valid namespace"
-193078	31	"p(SFAM:""IFNA Family"") increases p(EGID:29774)"	InvalidFunctionSemantic	Protein EGID:29774 should be encoded as one of: miRNA, Gene, RNA
+193078	31	"p(SFAM:""IFNA Family"") increases p(EGID:29774)"	InvalidFunctionSemantic	Protein EGID:29774 should be encoded as one of: Gene, RNA, miRNA
 193934	4	"SET CellStructure = ""t-cell"""	IllegalAnnotationValueWarning	"""t-cell"" is not defined in the CellStructure annotation"
 193964	4	"SET CellLine = ""A459 cell line"""	IllegalAnnotationValueWarning	"""A459 cell line"" is not defined in the CellLine annotation"
 194013	4	"SET CellLine = ""A459 cell line"""	IllegalAnnotationValueWarning	"""A459 cell line"" is not defined in the CellLine annotation"
@@ -506,30 +506,30 @@ Line Number	Position	Line	Error	Message
 198167	45	"path(SDIS:""lung adenocarcinoma"") decreases r(MGI:Hnrnpdl1)"	MissingNamespaceNameWarning	"""Hnrnpdl1"" is not in the MGI namespace"
 198168	45	"path(SDIS:""lung adenocarcinoma"") decreases r(MGI:Hnrnpdl1)"	MissingNamespaceNameWarning	"""Hnrnpdl1"" is not in the MGI namespace"
 198639	4	"SET CellLine = ""ANBL-6 cell"""	IllegalAnnotationValueWarning	"""ANBL-6 cell"" is not defined in the CellLine annotation"
-198698	23	p(HGNC:NANOG) increases p(EGID:339044)	InvalidFunctionSemantic	Protein EGID:339044 should be encoded as one of: miRNA, Gene, RNA
+198698	23	p(HGNC:NANOG) increases p(EGID:339044)	InvalidFunctionSemantic	Protein EGID:339044 should be encoded as one of: Gene, RNA, miRNA
 199833	4	"SET Anatomy = {""Endothelium"",""vascular tissue""}"	IllegalAnnotationValueWarning	"""Endothelium"" is not defined in the Anatomy annotation"
 200735	41	"kin(p(HGNC:MAPK1)) decreases cat(complex(SCOMP:""proton-transporting ATP synthase complex""))"	MissingNamespaceNameWarning	"""proton-transporting ATP synthase complex"" is not in the SCOMP namespace"
 200736	41	"kin(p(HGNC:MAPK3)) decreases cat(complex(SCOMP:""proton-transporting ATP synthase complex""))"	MissingNamespaceNameWarning	"""proton-transporting ATP synthase complex"" is not in the SCOMP namespace"
 201107	4	"SET Cell = ""embryonic kidney cell"""	IllegalAnnotationValueWarning	"""embryonic kidney cell"" is not defined in the Cell annotation"
 201147	51	composite(p(MGI:Hoxa11),p(MGI:Hoxd11)) increases r(MGI:Hnrnpdl1)	MissingNamespaceNameWarning	"""Hnrnpdl1"" is not in the MGI namespace"
 201148	51	composite(p(MGI:Hoxa11),p(MGI:Hoxd11)) increases r(MGI:Hnrnpdl1)	MissingNamespaceNameWarning	"""Hnrnpdl1"" is not in the MGI namespace"
-201599	29	a(SCHEM:Dronabinol) increases p(EGID:400579)	InvalidFunctionSemantic	Protein EGID:400579 should be encoded as one of: miRNA, Gene, RNA
-201600	29	a(SCHEM:Dronabinol) increases p(EGID:100506710)	InvalidFunctionSemantic	Protein EGID:100506710 should be encoded as one of: miRNA, Gene, RNA
+201599	29	a(SCHEM:Dronabinol) increases p(EGID:400579)	InvalidFunctionSemantic	Protein EGID:400579 should be encoded as one of: Gene, RNA, miRNA
+201600	29	a(SCHEM:Dronabinol) increases p(EGID:100506710)	InvalidFunctionSemantic	Protein EGID:100506710 should be encoded as one of: Gene, RNA, miRNA
 202054	30	p(HGNC:TNFRSF1A) increases bp(GOBP:necrosis)	MissingNamespaceNameWarning	"""necrosis"" is not in the GOBP namespace"
 202189	30	path(MESHD:Ischemia) increases r(EGID:16081)	InvalidFunctionSemantic	RNA EGID:16081 should be encoded as one of: Gene
 203596	4	"SET CellStructure = ""Endoplasmic reticulum"""	IllegalAnnotationValueWarning	"""Endoplasmic reticulum"" is not defined in the CellStructure annotation"
-203844	31	path(MESHD:Hyperoxia) decreases p(EGID:353511)	InvalidFunctionSemantic	Protein EGID:353511 should be encoded as one of: miRNA, Gene, RNA
+203844	31	path(MESHD:Hyperoxia) decreases p(EGID:353511)	InvalidFunctionSemantic	Protein EGID:353511 should be encoded as one of: Gene, RNA, miRNA
 204152	25	"p(HGNC:XPOT) association (a(SCHEM:""1,25-Dihydroxyvitamin D"") decreases bp(GOBP:""cell proliferation""))"	BELSyntaxError	"General Parser Failure on line 204152 at pos 25: p(HGNC:XPOT) association (a(SCHEM:""1,25-Dihydroxyvitamin D"") decreases bp(GOBP:""cell proliferation""))"
 204153	25	"p(HGNC:XPOT) association (a(SCHEM:""1,25-Dihydroxyvitamin D"") decreases bp(GOBP:""cell proliferation""))"	BELSyntaxError	"General Parser Failure on line 204153 at pos 25: p(HGNC:XPOT) association (a(SCHEM:""1,25-Dihydroxyvitamin D"") decreases bp(GOBP:""cell proliferation""))"
 204355	4	"SET MeSHAnatomy = ""bronchoalveolar lavage fluid"""	IllegalAnnotationValueWarning	"""bronchoalveolar lavage fluid"" is not defined in the MeSHAnatomy annotation"
 204656	4	"SET CellLine = ""INA-6 cell"""	IllegalAnnotationValueWarning	"""INA-6 cell"" is not defined in the CellLine annotation"
 205067	36	complex(GOCCID:0043510) increases r(MGI:Kal1)	MissingNamespaceNameWarning	"""Kal1"" is not in the MGI namespace"
-205362	36	"a(SCHEM:""Retinol acetate"") increases p(EGID:380687)"	InvalidFunctionSemantic	Protein EGID:380687 should be encoded as one of: miRNA, Gene, RNA
+205362	36	"a(SCHEM:""Retinol acetate"") increases p(EGID:380687)"	InvalidFunctionSemantic	Protein EGID:380687 should be encoded as one of: Gene, RNA, miRNA
 205837	4	"SET Disease = ""atherosclerotic lesion"""	IllegalAnnotationValueWarning	"""atherosclerotic lesion"" is not defined in the Disease annotation"
 205965	35	"tscript(p(HGNC:TP53)) increases bp(GOBP:""mitotic catastrophe"")"	MissingNamespaceNameWarning	"""mitotic catastrophe"" is not in the GOBP namespace"
 206941	4	"SET MeSHAnatomy = ""bronchoalveolar lavage fluid"""	IllegalAnnotationValueWarning	"""bronchoalveolar lavage fluid"" is not defined in the MeSHAnatomy annotation"
-207246	42	"path(SDIS:""bacterial infection"") increases p(EGID:629957)"	InvalidFunctionSemantic	Protein EGID:629957 should be encoded as one of: miRNA, Gene, RNA
-207247	42	"path(SDIS:""bacterial infection"") increases p(EGID:629957)"	InvalidFunctionSemantic	Protein EGID:629957 should be encoded as one of: miRNA, Gene, RNA
+207246	42	"path(SDIS:""bacterial infection"") increases p(EGID:629957)"	InvalidFunctionSemantic	Protein EGID:629957 should be encoded as one of: Gene, RNA, miRNA
+207247	42	"path(SDIS:""bacterial infection"") increases p(EGID:629957)"	InvalidFunctionSemantic	Protein EGID:629957 should be encoded as one of: Gene, RNA, miRNA
 207459	4	"SET Anatomy = {""Respiratory Mucosa"",""Lung""}"	IllegalAnnotationValueWarning	"""Respiratory Mucosa"" is not defined in the Anatomy annotation"
 207534	4	"SET Anatomy = {""Respiratory Mucosa"",""Lung""}"	IllegalAnnotationValueWarning	"""Respiratory Mucosa"" is not defined in the Anatomy annotation"
 207566	4	"SET Anatomy = {""Respiratory Mucosa"",""Lung""}"	IllegalAnnotationValueWarning	"""Respiratory Mucosa"" is not defined in the Anatomy annotation"
@@ -553,7 +553,7 @@ Line Number	Position	Line	Error	Message
 211715	4	"SET CellLine = ""LNCaP-GR cell line"""	IllegalAnnotationValueWarning	"""LNCaP-GR cell line"" is not defined in the CellLine annotation"
 211804	24	p(HGNC:EGF) increases p(HGNC:GRLF1,pmod(P,S,1070))	MissingNamespaceNameWarning	"""GRLF1"" is not in the HGNC namespace"
 211895	25	p(HGNC:NRG1) increases p(HGNC:GRLF1,pmod(P,S,1070))	MissingNamespaceNameWarning	"""GRLF1"" is not in the HGNC namespace"
-211923	22	p(HGNC:NRG1) increases p(HGNC:RPSAP12,pmod(P,Y,139))	InvalidFunctionSemantic	Protein HGNC:RPSAP12 should be encoded as one of: miRNA, Gene, RNA
+211923	22	p(HGNC:NRG1) increases p(HGNC:RPSAP12,pmod(P,Y,139))	InvalidFunctionSemantic	Protein HGNC:RPSAP12 should be encoded as one of: Gene, RNA, miRNA
 212078	4	"SET CellLine = ""INS-1 cell"""	IllegalAnnotationValueWarning	"""INS-1 cell"" is not defined in the CellLine annotation"
 212156	4	"SET CellLine = ""MM.1S cell"""	IllegalAnnotationValueWarning	"""MM.1S cell"" is not defined in the CellLine annotation"
 212164	4	SET CellStructure = cytosol	IllegalAnnotationValueWarning	"""cytosol"" is not defined in the CellStructure annotation"
@@ -562,25 +562,25 @@ Line Number	Position	Line	Error	Message
 213111	4	"SET MeSHAnatomy = ""bronchoalveolar lavage fluid"""	IllegalAnnotationValueWarning	"""bronchoalveolar lavage fluid"" is not defined in the MeSHAnatomy annotation"
 213122	4	"SET MeSHAnatomy = ""bronchoalveolar lavage fluid"""	IllegalAnnotationValueWarning	"""bronchoalveolar lavage fluid"" is not defined in the MeSHAnatomy annotation"
 213140	4	"SET MeSHAnatomy = ""bronchoalveolar lavage fluid"""	IllegalAnnotationValueWarning	"""bronchoalveolar lavage fluid"" is not defined in the MeSHAnatomy annotation"
-213456	40	"path(SDIS:""mechanical strain"") decreases p(EGID:79160)"	InvalidFunctionSemantic	Protein EGID:79160 should be encoded as one of: miRNA, Gene, RNA
+213456	40	"path(SDIS:""mechanical strain"") decreases p(EGID:79160)"	InvalidFunctionSemantic	Protein EGID:79160 should be encoded as one of: Gene, RNA, miRNA
 213623	45	"path(SDIS:""bile duct ligation"") increases bp(GOBP:necrosis)"	MissingNamespaceNameWarning	"""necrosis"" is not in the GOBP namespace"
 213661	4	"SET Anatomy = {""Endothelium, Vascular"",""vascular tissue""}"	IllegalAnnotationValueWarning	"""Endothelium, Vascular"" is not defined in the Anatomy annotation"
-213928	21	p(HGNC:EGF) decreases p(HGNC:HSP90AB2P,pmod(P,S,224))	InvalidFunctionSemantic	Protein HGNC:HSP90AB2P should be encoded as one of: miRNA, Gene, RNA
+213928	21	p(HGNC:EGF) decreases p(HGNC:HSP90AB2P,pmod(P,S,224))	InvalidFunctionSemantic	Protein HGNC:HSP90AB2P should be encoded as one of: Gene, RNA, miRNA
 214002	24	p(HGNC:EGF) decreases p(HGNC:MYST2,pmod(P,S,56))	MissingNamespaceNameWarning	"""MYST2"" is not in the HGNC namespace"
-214128	21	p(HGNC:EGF) decreases p(EGID:440248,pmod(P,S,251))	InvalidFunctionSemantic	Protein EGID:440248 should be encoded as one of: miRNA, Gene, RNA
-214129	21	p(HGNC:EGF) decreases p(EGID:440248,pmod(P,S,251))	InvalidFunctionSemantic	Protein EGID:440248 should be encoded as one of: miRNA, Gene, RNA
-214240	21	p(HGNC:EGF) increases p(HGNC:ANXA2P2,pmod(P,S,12))	InvalidFunctionSemantic	Protein HGNC:ANXA2P2 should be encoded as one of: miRNA, Gene, RNA
-214241	21	p(HGNC:EGF) increases p(HGNC:ANXA2P2,pmod(P,S,22))	InvalidFunctionSemantic	Protein HGNC:ANXA2P2 should be encoded as one of: miRNA, Gene, RNA
-214242	21	p(HGNC:EGF) increases p(HGNC:ANXA2P2,pmod(P,S,26))	InvalidFunctionSemantic	Protein HGNC:ANXA2P2 should be encoded as one of: miRNA, Gene, RNA
+214128	21	p(HGNC:EGF) decreases p(EGID:440248,pmod(P,S,251))	InvalidFunctionSemantic	Protein EGID:440248 should be encoded as one of: Gene, RNA, miRNA
+214129	21	p(HGNC:EGF) decreases p(EGID:440248,pmod(P,S,251))	InvalidFunctionSemantic	Protein EGID:440248 should be encoded as one of: Gene, RNA, miRNA
+214240	21	p(HGNC:EGF) increases p(HGNC:ANXA2P2,pmod(P,S,12))	InvalidFunctionSemantic	Protein HGNC:ANXA2P2 should be encoded as one of: Gene, RNA, miRNA
+214241	21	p(HGNC:EGF) increases p(HGNC:ANXA2P2,pmod(P,S,22))	InvalidFunctionSemantic	Protein HGNC:ANXA2P2 should be encoded as one of: Gene, RNA, miRNA
+214242	21	p(HGNC:EGF) increases p(HGNC:ANXA2P2,pmod(P,S,26))	InvalidFunctionSemantic	Protein HGNC:ANXA2P2 should be encoded as one of: Gene, RNA, miRNA
 214612	24	p(HGNC:EGF) increases p(HGNC:GRINL1A,pmod(P,S,179))	MissingNamespaceNameWarning	"""GRINL1A"" is not in the HGNC namespace"
 214616	24	p(HGNC:EGF) increases p(HGNC:GRINL1A,pmod(P,S,186))	MissingNamespaceNameWarning	"""GRINL1A"" is not in the HGNC namespace"
-214649	21	p(HGNC:EGF) increases p(HGNC:HSP90AB2P,pmod(P,S,218))	InvalidFunctionSemantic	Protein HGNC:HSP90AB2P should be encoded as one of: miRNA, Gene, RNA
+214649	21	p(HGNC:EGF) increases p(HGNC:HSP90AB2P,pmod(P,S,218))	InvalidFunctionSemantic	Protein HGNC:HSP90AB2P should be encoded as one of: Gene, RNA, miRNA
 214707	24	p(HGNC:EGF) increases p(HGNC:JUB,pmod(P,S,263))	MissingNamespaceNameWarning	"""JUB"" is not in the HGNC namespace"
 214708	24	p(HGNC:EGF) increases p(HGNC:JUB,pmod(P,S,263))	MissingNamespaceNameWarning	"""JUB"" is not in the HGNC namespace"
 214709	24	p(HGNC:EGF) increases p(HGNC:JUB,pmod(P,S,263))	MissingNamespaceNameWarning	"""JUB"" is not in the HGNC namespace"
 214710	24	p(HGNC:EGF) increases p(HGNC:JUB,pmod(P,S,263))	MissingNamespaceNameWarning	"""JUB"" is not in the HGNC namespace"
 214820	24	p(HGNC:EGF) increases p(HGNC:MYST2,pmod(P,S,10))	MissingNamespaceNameWarning	"""MYST2"" is not in the HGNC namespace"
-214872	21	"p(HGNC:EGF) increases p(HGNC:""PALM2-AKAP2"",pmod(P,S,617))"	InvalidFunctionSemantic	"Protein HGNC:""PALM2-AKAP2"" should be encoded as one of: miRNA, Gene, RNA"
+214872	21	"p(HGNC:EGF) increases p(HGNC:""PALM2-AKAP2"",pmod(P,S,617))"	InvalidFunctionSemantic	Protein HGNC:PALM2-AKAP2 should be encoded as one of: Gene, RNA, miRNA
 215494	34	"a(CHEBI:resveratrol) decreases bp(GOBP:""electron transport"")"	MissingNamespaceNameWarning	"""electron transport"" is not in the GOBP namespace"
 215685	4	"SET CellLine = ""16HBE14o- cell"""	IllegalAnnotationValueWarning	"""16HBE14o- cell"" is not defined in the CellLine annotation"
 216145	4	SET CellStructure = endosome	IllegalAnnotationValueWarning	"""endosome"" is not defined in the CellStructure annotation"
@@ -662,7 +662,7 @@ Line Number	Position	Line	Error	Message
 216967	23	"p(HGNC:F2) increases p(SFAM:""sec(PDGF family)"")"	MissingNamespaceNameWarning	"""sec(PDGF family)"" is not in the SFAM namespace"
 217001	23	"p(HGNC:F2) increases p(SFAM:""sec(PDGF family)"")"	MissingNamespaceNameWarning	"""sec(PDGF family)"" is not in the SFAM namespace"
 217172	4	"SET CellLine = ""SK-BR-3"""	IllegalAnnotationValueWarning	"""SK-BR-3"" is not defined in the CellLine annotation"
-217439	47	"path(SDIS:""mitochondrial DNA damage"") increases p(EGID:222161)"	InvalidFunctionSemantic	Protein EGID:222161 should be encoded as one of: miRNA, Gene, RNA
+217439	47	"path(SDIS:""mitochondrial DNA damage"") increases p(EGID:222161)"	InvalidFunctionSemantic	Protein EGID:222161 should be encoded as one of: Gene, RNA, miRNA
 217743	43	"bp(GOBP:""response to hypoxia"") increases p(EGID:497210)"	MissingNamespaceNameWarning	"""497210"" is not in the EGID namespace"
 218277	36	"path(SDIS:""high-fat diet"") increases r(EGID:100124678)"	InvalidFunctionSemantic	RNA EGID:100124678 should be encoded as one of: Gene
 218759	4	"SET Anatomy = {""Lung"",""Pulmonary Alveoli""}"	IllegalAnnotationValueWarning	"""Lung"" is not defined in the Anatomy annotation"
@@ -769,8 +769,8 @@ Line Number	Position	Line	Error	Message
 229818	4	"SET Disease = ""Carcinoma of kidney"""	IllegalAnnotationValueWarning	"""Carcinoma of kidney"" is not defined in the Disease annotation"
 229882	4	"SET CellLine = ""Carcinoma of b-cell"""	IllegalAnnotationValueWarning	"""Carcinoma of b-cell"" is not defined in the CellLine annotation"
 229893	4	"SET Disease = ""Atherosclerotic lesion"""	IllegalAnnotationValueWarning	"""Atherosclerotic lesion"" is not defined in the Disease annotation"
-230984	37	"bp(GOBP:""response to UV-B"") increases p(EGID:729602)"	InvalidFunctionSemantic	Protein EGID:729602 should be encoded as one of: miRNA, Gene, RNA
-230986	37	"bp(GOBP:""response to UV-B"") increases p(EGID:84981)"	InvalidFunctionSemantic	Protein EGID:84981 should be encoded as one of: miRNA, Gene, RNA
+230984	37	"bp(GOBP:""response to UV-B"") increases p(EGID:729602)"	InvalidFunctionSemantic	Protein EGID:729602 should be encoded as one of: Gene, RNA, miRNA
+230986	37	"bp(GOBP:""response to UV-B"") increases p(EGID:84981)"	InvalidFunctionSemantic	Protein EGID:84981 should be encoded as one of: Gene, RNA, miRNA
 231050	4	"SET CellLine = ""16HBE14o- cell"""	IllegalAnnotationValueWarning	"""16HBE14o- cell"" is not defined in the CellLine annotation"
 231177	39	"path(SDIS:""high-fat diet"") decreases r(EGID:498544)"	MissingNamespaceNameWarning	"""498544"" is not in the EGID namespace"
 231518	55	p(HGNC:EGF) increases tloc(p(HGNC:EGFR),GOCCID:0016020,GOCCID:0042598)	MissingNamespaceNameWarning	"""0042598"" is not in the GOCCID namespace"
@@ -791,7 +791,7 @@ Line Number	Position	Line	Error	Message
 232802	4	"SET CellLine = ""11-18 cell"""	IllegalAnnotationValueWarning	"""11-18 cell"" is not defined in the CellLine annotation"
 232815	4	"SET CellLine = ""11-18 cell"""	IllegalAnnotationValueWarning	"""11-18 cell"" is not defined in the CellLine annotation"
 232839	4	"SET CellLine = ""11-18 cell"""	IllegalAnnotationValueWarning	"""11-18 cell"" is not defined in the CellLine annotation"
-233132	40	"bp(GOBP:""response to hypoxia"") increases p(EGID:400618)"	InvalidFunctionSemantic	Protein EGID:400618 should be encoded as one of: miRNA, Gene, RNA
+233132	40	"bp(GOBP:""response to hypoxia"") increases p(EGID:400618)"	InvalidFunctionSemantic	Protein EGID:400618 should be encoded as one of: Gene, RNA, miRNA
 233884	21	p(MGI:Gcm1) decreases r(EGID:432709)	InvalidFunctionSemantic	RNA EGID:432709 should be encoded as one of: Gene
 234374	48	"a(CHEBI:""reactive oxygen species"") increases bp(GOBP:""age-dependent telomere shortening"")"	MissingNamespaceNameWarning	"""age-dependent telomere shortening"" is not in the GOBP namespace"
 234665	4	"SET Cell = ""T-cell"""	IllegalAnnotationValueWarning	"""T-cell"" is not defined in the Cell annotation"
@@ -860,8 +860,8 @@ Line Number	Position	Line	Error	Message
 242534	4	"SET MeSHAnatomy = ""bronchoalveolar lavage fluid"""	IllegalAnnotationValueWarning	"""bronchoalveolar lavage fluid"" is not defined in the MeSHAnatomy annotation"
 242855	4	"SET CellLine = ""CL1-5 cell"""	IllegalAnnotationValueWarning	"""CL1-5 cell"" is not defined in the CellLine annotation"
 243031	4	"SET Disease = {""leukemia"",""Neoplasm""}"	IllegalAnnotationValueWarning	"""Neoplasm"" is not defined in the Disease annotation"
-243293	29	p(HGNC:S100A8) increases sec(p(HGNC:SAA3P))	InvalidFunctionSemantic	Protein HGNC:SAA3P should be encoded as one of: miRNA, Gene, RNA
-243294	42	a(CHEBI:lipopolysaccharide) increases sec(p(HGNC:SAA3P))	InvalidFunctionSemantic	Protein HGNC:SAA3P should be encoded as one of: miRNA, Gene, RNA
+243293	29	p(HGNC:S100A8) increases sec(p(HGNC:SAA3P))	InvalidFunctionSemantic	Protein HGNC:SAA3P should be encoded as one of: Gene, RNA, miRNA
+243294	42	a(CHEBI:lipopolysaccharide) increases sec(p(HGNC:SAA3P))	InvalidFunctionSemantic	Protein HGNC:SAA3P should be encoded as one of: Gene, RNA, miRNA
 243486	32	tscript(p(HGNC:TEAD4)) increases r(HGNC:DCR)	InvalidFunctionSemantic	RNA HGNC:DCR should be encoded as one of: Gene
 243490	8	complex(tscript(p(HGNC:TEAD4)),g(HGNC:DCR))	NakedNameWarning	"""tscript"" should be qualified with a valid namespace"
 243928	4	"SET MeSHAnatomy = ""bronchoalveolar lavage fluid"""	IllegalAnnotationValueWarning	"""bronchoalveolar lavage fluid"" is not defined in the MeSHAnatomy annotation"
@@ -965,7 +965,7 @@ Line Number	Position	Line	Error	Message
 274469	4	"SET Anatomy = {""Muscle, Smooth"",""vascular tissue""}"	IllegalAnnotationValueWarning	"""Muscle, Smooth"" is not defined in the Anatomy annotation"
 275664	10	tscript(p(MGI:Tcfap2a)) directlyIncreases r(MGI:Cdkn1a)	MissingNamespaceNameWarning	"""Tcfap2a"" is not in the MGI namespace"
 275665	10	tscript(p(MGI:Tcfap2a)) directlyIncreases r(MGI:Erbb2)	MissingNamespaceNameWarning	"""Tcfap2a"" is not in the MGI namespace"
-276520	44	"kin(p(SFAM:""PRKC Family"")) directlyIncreases p(EGID:4083,pmod(P))"	InvalidFunctionSemantic	Protein EGID:4083 should be encoded as one of: miRNA, Gene, RNA
+276520	44	"kin(p(SFAM:""PRKC Family"")) directlyIncreases p(EGID:4083,pmod(P))"	InvalidFunctionSemantic	Protein EGID:4083 should be encoded as one of: Gene, RNA, miRNA
 276548	56	"path(SDIS:""response to shear stress"") increases complex(SCOMP:""VWF:Ib-V-IX complex"")"	MissingNamespaceNameWarning	"""VWF:Ib-V-IX complex"" is not in the SCOMP namespace"
 276708	4	"SET Anatomy = {""vascular smooth muscle"",""vascular tissue""}"	IllegalAnnotationValueWarning	"""vascular smooth muscle"" is not defined in the Anatomy annotation"
 278046	4	"SET Cell = ""islet cell"""	IllegalAnnotationValueWarning	"""islet cell"" is not defined in the Cell annotation"

@@ -1,14 +1,14 @@
 {
   "Name": "BEL Framework Small Corpus Document",
   "Version": "20150611",
-  "Author": "Selventa",
+  "Authors": "Selventa",
   "Number of Nodes": 1301,
   "Number of Namespaces": 15,
   "Number of Edges": 2671,
   "Number of Annotations": 8,
   "Number of Citations": 57,
   "Number of Authors": 350,
-  "Network Density": "1.58E-03",
   "Number of Components": 20,
-  "Number of Warnings": 102
+  "Number of Warnings": 102,
+  "Network Density": "1.58E-03"
 }

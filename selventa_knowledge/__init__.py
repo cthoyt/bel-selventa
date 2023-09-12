@@ -35,6 +35,7 @@ repository = BELRepository(
     from_path_kwargs=dict(
         citation_clearing=False,
     ),
+    formats=("pickle", "nodelink.json.gz")
 )
 
 get_graph = repository.get_graph

@@ -7,26 +7,26 @@ import os
 from pybel.repository import BELMetadata, BELRepository
 
 __all__ = [
-    'repository',
-    'metadata',
-    'get_graph',
-    'get_graphs',
-    'get_summary_df',
-    'main',
+    "repository",
+    "metadata",
+    "get_graph",
+    "get_graphs",
+    "get_summary_df",
+    "main",
 ]
 
 HERE = os.path.dirname(__file__)
-VERSION = '20150611'
+VERSION = "20150611"
 
 # All metadata is grouped here
 metadata = BELMetadata(
-    name='Selventa Corpora',
+    name="Selventa Corpora",
     version=VERSION,
-    authors='Selventa',
-    contact='support@belframework.org',
+    authors="Selventa",
+    contact="support@belframework.org",
     description="Selventa Large and Small Corpora.",
-    license='Creative Commons Attribution-Non-Commercial-ShareAlike 3.0 Unported License',
-    copyright='Copyright (c) 2011-2015, Selventa. All Rights Reserved.',
+    license="Creative Commons Attribution-Non-Commercial-ShareAlike 3.0 Unported License",
+    copyright="Copyright (c) 2011-2015, Selventa. All Rights Reserved.",
 )
 
 repository = BELRepository(
